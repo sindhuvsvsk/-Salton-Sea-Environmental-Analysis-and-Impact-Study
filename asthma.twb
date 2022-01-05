@@ -1,0 +1,884 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.0918.1727                               -->
+<workbook original-version='18.1' source-build='2020.3.1 (20203.20.0918.1727)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Asthma_prevalence_counties_2001to2019' inline='true' name='federated.0e7od7z00sotxe193a8do0b3u2u6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Asthma_prevalence_counties_2001to2019' name='textscan.1vm7ft71x9of9r157h7gb0in7rhc'>
+            <connection class='textscan' directory='C:/Users/sindh/Desktop/Jupyter Notes/Salton sea/data' filename='Asthma_prevalence_counties_2001to2019.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1vm7ft71x9of9r157h7gb0in7rhc' name='Asthma_prevalence_counties_2001to2019.csv' table='[Asthma_prevalence_counties_2001to2019#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='County' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Ever diagnosed with asthma' ordinal='2' />
+            <column datatype='real' name='Percentage' ordinal='3' />
+            <column datatype='string' name='95% CI' ordinal='4' />
+            <column datatype='integer' name='Population' ordinal='5' />
+            <column datatype='integer' name='County_total' ordinal='6' />
+            <column datatype='real' name='California_Percentage' ordinal='7' />
+            <column datatype='string' name='California_95% CI' ordinal='8' />
+            <column datatype='integer' name='California_Population' ordinal='9' />
+            <column datatype='integer' name='California_total' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1vm7ft71x9of9r157h7gb0in7rhc' name='Asthma_prevalence_counties_2001to2019.csv' table='[Asthma_prevalence_counties_2001to2019#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='County' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Ever diagnosed with asthma' ordinal='2' />
+            <column datatype='real' name='Percentage' ordinal='3' />
+            <column datatype='string' name='95% CI' ordinal='4' />
+            <column datatype='integer' name='Population' ordinal='5' />
+            <column datatype='integer' name='County_total' ordinal='6' />
+            <column datatype='real' name='California_Percentage' ordinal='7' />
+            <column datatype='string' name='California_95% CI' ordinal='8' />
+            <column datatype='integer' name='California_Population' ordinal='9' />
+            <column datatype='integer' name='California_total' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Asthma_prevalence_counties_2001to2019.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[Asthma_prevalence_counties_2001to2019.csv]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Asthma_prevalence_counties_2001to2019.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ever diagnosed with asthma</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ever diagnosed with asthma]</local-name>
+            <parent-name>[Asthma_prevalence_counties_2001to2019.csv]</parent-name>
+            <remote-alias>Ever diagnosed with asthma</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage]</local-name>
+            <parent-name>[Asthma_prevalence_counties_2001to2019.csv]</parent-name>
+            <remote-alias>Percentage</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>95% CI</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[95% CI]</local-name>
+            <parent-name>[Asthma_prevalence_counties_2001to2019.csv]</parent-name>
+            <remote-alias>95% CI</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[Asthma_prevalence_counties_2001to2019.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County_total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[County_total]</local-name>
+            <parent-name>[Asthma_prevalence_counties_2001to2019.csv]</parent-name>
+            <remote-alias>County_total</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>California_Percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[California_Percentage]</local-name>
+            <parent-name>[Asthma_prevalence_counties_2001to2019.csv]</parent-name>
+            <remote-alias>California_Percentage</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>California_95% CI</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[California_95% CI]</local-name>
+            <parent-name>[Asthma_prevalence_counties_2001to2019.csv]</parent-name>
+            <remote-alias>California_95% CI</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>California_Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[California_Population]</local-name>
+            <parent-name>[Asthma_prevalence_counties_2001to2019.csv]</parent-name>
+            <remote-alias>California_Population</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>California_total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[California_total]</local-name>
+            <parent-name>[Asthma_prevalence_counties_2001to2019.csv]</parent-name>
+            <remote-alias>California_total</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='95% Ci' datatype='string' name='[95% CI]' role='dimension' type='nominal' />
+      <column caption='California 95% CI' datatype='string' name='[California_95% CI]' role='dimension' type='nominal' />
+      <column caption='California Percentage' datatype='real' default-format='N' name='[California_Percentage]' role='measure' type='quantitative' />
+      <column caption='California Population' datatype='integer' name='[California_Population]' role='measure' type='quantitative' />
+      <column caption='California total' datatype='integer' name='[California_total]' role='measure' type='quantitative' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County total' datatype='integer' name='[County_total]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Ever diagnosed with asthma]' role='dimension' type='nominal' />
+      <column datatype='real' default-format='N' name='[Multiple Values]' role='measure' type='quantitative' />
+      <column datatype='real' default-format='N' name='[Percentage]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Population]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Asthma_prevalence_counties_2001to2019.csv' datatype='table' name='[__tableau_internal_object_id__].[Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2]' role='measure' type='quantitative' />
+      <column-instance column='[Percentage]' derivation='Attribute' name='[attr:Percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Percentage]' derivation='Avg' name='[avg:Percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Percentage]' derivation='Count' name='[cnt:Percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Ever diagnosed with asthma]' derivation='None' name='[none:Ever diagnosed with asthma:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Percentage]' derivation='Count' name='[pcdf:cnt:Percentage:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='PctDiff'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[Percentage]' derivation='Sum' name='[pcdf:sum:Percentage:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='PctDiff'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[California_Percentage]' derivation='Sum' name='[sum:California_Percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Percentage]' derivation='Sum' name='[sum:Percentage:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Population]' derivation='Sum' name='[sum:Population:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Ever diagnosed with asthma:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Does not have asthma&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Has asthma&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6].[sum:California_Percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6].[sum:Population:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6].[attr:Percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6].[avg:Percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6].[cnt:Percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6].[pcdf:cnt:Percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6].[pcdf:sum:Percentage:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6].[sum:Percentage:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Asthma_prevalence_counties_2001to2019.csv' id='Asthma_prevalence_counties_2001to2019.csv_653059D3F69C4C94B1CB20110A827FF2'>
+            <properties context=''>
+              <relation connection='textscan.1vm7ft71x9of9r157h7gb0in7rhc' name='Asthma_prevalence_counties_2001to2019.csv' table='[Asthma_prevalence_counties_2001to2019#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='County' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='string' name='Ever diagnosed with asthma' ordinal='2' />
+                  <column datatype='real' name='Percentage' ordinal='3' />
+                  <column datatype='string' name='95% CI' ordinal='4' />
+                  <column datatype='integer' name='Population' ordinal='5' />
+                  <column datatype='integer' name='County_total' ordinal='6' />
+                  <column datatype='real' name='California_Percentage' ordinal='7' />
+                  <column datatype='string' name='California_95% CI' ordinal='8' />
+                  <column datatype='integer' name='California_Population' ordinal='9' />
+                  <column datatype='integer' name='California_total' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Asthma_percentage'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Asthma_prevalence_counties_2001to2019' name='federated.0e7od7z00sotxe193a8do0b3u2u6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0e7od7z00sotxe193a8do0b3u2u6'>
+            <column caption='California Percentage' datatype='real' default-format='N' name='[California_Percentage]' role='measure' type='quantitative' />
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='string' name='[Ever diagnosed with asthma]' role='dimension' type='nominal' />
+            <column datatype='real' default-format='N' name='[Percentage]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Percentage]' derivation='Avg' name='[avg:Percentage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Ever diagnosed with asthma]' derivation='None' name='[none:Ever diagnosed with asthma:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[California_Percentage]' derivation='Sum' name='[sum:California_Percentage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Percentage]' derivation='Sum' name='[sum:Percentage:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0e7od7z00sotxe193a8do0b3u2u6].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6].[sum:California_Percentage:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6].[sum:Percentage:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0e7od7z00sotxe193a8do0b3u2u6].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6].[sum:California_Percentage:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0e7od7z00sotxe193a8do0b3u2u6].[avg:Percentage:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:County:nk]'>
+            <groupfilter function='member' level='[none:County:nk]' member='&quot;Imperial&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Ever diagnosed with asthma:nk]'>
+            <groupfilter function='member' level='[none:Ever diagnosed with asthma:nk]' member='&quot;Has asthma&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0e7od7z00sotxe193a8do0b3u2u6].[:Measure Names]</column>
+            <column>[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Ever diagnosed with asthma:nk]</column>
+            <column>[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:County:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Year:qk]' field-type='quantitative' range-type='uniform' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0e7od7z00sotxe193a8do0b3u2u6].[avg:Percentage:qk]' value='*0%' />
+            <format attr='text-format' field='[federated.0e7od7z00sotxe193a8do0b3u2u6].[sum:Percentage:qk]' value='N' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0e7od7z00sotxe193a8do0b3u2u6].[avg:Percentage:qk]' value='N' />
+            <format attr='text-format' field='[federated.0e7od7z00sotxe193a8do0b3u2u6].[sum:Percentage:qk]' value='N' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-right' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.0e7od7z00sotxe193a8do0b3u2u6].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.9890055656433105' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0e7od7z00sotxe193a8do0b3u2u6].[Multiple Values]</rows>
+        <cols>[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{8A1B71B9-8634-415C-A3B7-D33840F51482}' />
+    </worksheet>
+    <worksheet name='Asthma_population'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Asthma_prevalence_counties_2001to2019' name='federated.0e7od7z00sotxe193a8do0b3u2u6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0e7od7z00sotxe193a8do0b3u2u6'>
+            <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+            <column datatype='string' name='[Ever diagnosed with asthma]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Population]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[County]' derivation='None' name='[none:County:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Ever diagnosed with asthma]' derivation='None' name='[none:Ever diagnosed with asthma:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Population]' derivation='Sum' name='[sum:Population:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:County:nk]'>
+            <groupfilter function='member' level='[none:County:nk]' member='&quot;Imperial&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:County:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='auto-subtitle' class='0' field='[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Year:qk]' scope='cols' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Ever diagnosed with asthma:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7691160440444946' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0e7od7z00sotxe193a8do0b3u2u6].[none:County:nk] * [federated.0e7od7z00sotxe193a8do0b3u2u6].[sum:Population:qk])</rows>
+        <cols>[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{7C577166-C0F8-441F-85F0-A3DF9572A7F7}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B87DA4B7-3BF0-4E0C-892D-1C29CB972A3D}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Asthma_population'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:County:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Ever diagnosed with asthma:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Ever diagnosed with asthma:nk]</field>
+            <field>[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D4F42F8F-1647-4C5D-9140-4BFA40906A77}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Asthma_percentage'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Ever diagnosed with asthma:nk]' type='filter' />
+            <card param='[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:County:nk]' type='filter' />
+            <card param='[federated.0e7od7z00sotxe193a8do0b3u2u6].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.0e7od7z00sotxe193a8do0b3u2u6].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0e7od7z00sotxe193a8do0b3u2u6].[:Measure Names]</field>
+            <field>[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:County:nk]</field>
+            <field>[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Ever diagnosed with asthma:nk]</field>
+            <field>[federated.0e7od7z00sotxe193a8do0b3u2u6].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{743D54D2-2B24-455F-9F61-C2DB5E8015C1}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{967680EA-5BE6-46CD-9D71-EA3082BBD393}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Asthma_percentage' width='192'>
+      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
+      Nh1B08B2FDVLYTYV9hs6GyPevI1Mg7Lpspe32MpaLKZCnJWaVC1FtmxzUevu66Je3agVIGho
+      hF6c+/ur7RrfmIsRC+mAy48eJvjFZoXVyUh/Byk8uTse5u6Ld92Vsc9X8Yk+72beqABUGg6F
+      qoNSFuGAxidHdR5NRQgaGp+dmnxjPtbvIYq3zI0KQDxs8IP78bZ/995S709FCnGjjgGEuG4S
+      AOFrngKg7Dof/t+/Zu/orNfjEeJaeToGUEonkYhSurzEnRpvdYeTznB/K+kM9/puZGe4VxvB
+      JWCEqJtNNF1/tYxIZ7i/mXSGe303sjPcS0YgwtLKMrquoyGd4cTt5SkA3bzzCnGTyFkg4WsS
+      AOFrEgDhaxIA4WsSAOFrEgDhaxIA4WsSAOFrEgDhaxIA4WsSAOFrEgDhaxIA4WsSAOFrEgDh
+      axIA4WsSAOFrEgDha94CoBQnh7vki5UeD0eI6+UpAI3qBXU3QubkUL4QL241T99sd1yHcDiC
+      asgX48Xt5mkFiMZHqF2cEIwN9no8Qlwrb21R9AB3HzwEWt3ZXv6qvLRb03UIebtBsxYIe9sm
+      QCDiebvohuftaqE42B62G2p1zfayXU03vD/WbuY42MUca7q37WqdPVZNeX50LS9bIiqlPLXt
+      c13Xc3e421jrdZ681sHtnCevtZ3Wdb0Tr2naqw16eYK+WP+21758r/EaAK+1t22euqnttK7r
+      FUCI28z4yU9+8pPr3ODu1honmSIR3WZ9a5fE0BA7G2vUmxqNUp6943OSo0n0Nu90OxvPOMuX
+      CaoG61t7DI8Ms7n2jIYbwDVLHOcuSQ5dPTBv1susb25h2hql3Amn+TJRw2Ztc4doPMHBzib5
+      Up3kyNCVdq6N6iUbW9tYrsHF+SGZYo2warC2tUssHmdve4Ni1WJkePBKbe7siJ29A6IDA2yt
+      r+HoYUq5Y44zRVLJYQ6211GhBNHQ1YU4c3LA7v4RsYEYG2trqECUi/NDTvMlgq7J1u4BoVic
+      SOjL99hSSrGz+Zzz352n58+wVIBm9YL9kyzJkZErc6xch+2NNbLFKrpdY3P3kOHhQdafPcPR
+      AuROj9je3md0Ik3gd5rQNqqXbGxuYymDwtkh2WKNkGqwvrnLQCLO1sY6ZdNmZOjq/nm9fMHG
+      1g6OFiJ3skuh3MCwa6xv7ZFIDLC1sUHDNRiMX71F1s7mc05zJUJak42tPQZHkuyuPyU0mKJ4
+      dsj+SZbR5NXX08t5uvYrwXMLy6iGyXHukscPFlh/8ozB8XnMygWX1QYzowPkS7W2tfNLKzhm
+      nbNCma+tzvL0oyeMzq5QLxWIxIexaqW2dUZ4gMXZaWrVC8xmkAG3yV7mgoerS5yf5lhaXqJR
+      q7atDUYTLMxMUq0WsJwoYbvBXu6Sx6sLnJ0VScSjmHWzbW1yfIpkIsTB+g7T9x5RuTil1tAZ
+      MlxylzkuKzVqZrNtbWpihqGYwcHmLnOrjynlDzGbAQbcJtlKGeW6aFr7p29haRn75Tw9mOHJ
+      rz8lNX+H2mWOra1dXNvGbbfwazqLy8tY9RrZYpX7S2me/PpTpu4+pFIssLh8h8TgAKE2HZiD
+      0QTzMxPUqgWabpSQ3eAgd8nj1Xn2t/Ywmy6VcrnteMMDQ8xNjVGr5rFVAt2qc/ziOf7kN09J
+      TS+SPz9uWzu/uIzbqHOaL/F4dY7D/TPisRBm06FUazI5FOGi2v75WVhavu4AKDbX11i6fx/D
+      tanX6wRCIRoNE9txcWwbs2Fh6O06vCvWn6+x8uA+umNTr9UJRsOY9VZtJPLVd49s1orsnhW5
+      u7yIbVs0bBvDdTDrJq5yeb6+zf3V+22beTfKBQ6yFe4szmPbDSzbRndtzLqJ0mAkNUmjXm7b
+      Ivv0cBcjnmY6HadWq2M7tLbftLnIFmjUK2TzhbZjPt7fJjIyTToZo16rYzvaq7GPjU9x/84M
+      R4ftblCiWH++zt0vzFMoGsE0W/MUjQ8xMRjkomq1KXVYe77BvdX74NiY9TrhaPjF9l2qF+dE
+      h8fbHoeY5TxH+Rori/PYtoVl22iuTb1u0rSbDI6mUXaj7WOtFrOcXTZZmp/Bths0bRtejH18
+      dpFS5gCz7a0CFBtrayzf//yxGuEooYABaNh2k4ZlYbQ9JlCsPd+47gC4aOgc7h8wvzDH0XmZ
+      B48eELDLpKdmmZkep+aGGE20ezE7aOgc7B8yNz/DUabOo3dWoVZgcmaW4/0d7KZNtXF1pmzb
+      RTXrnJxfkk4liCRTrCzOc3J6wfxsCh04ODhue1XbdhROo8pZtsLYaIyB0XHuLMxxeFpiYWaU
+      48MDpmbmv+LxahQyJxgjk1j5E6bnl5gcH8YYHOHOyj3e+b1vcHd+sn2lppE7OyYyNk01c8Ts
+      wgrpsQSRkRQh12ZnP8vy8vRXztP+i3k6zpk8fncVVckxObvA0sIUF80AqcTVG44r5aBrGgf7
+      R8zNTpG5dHj47iOswinTc/M4RpTZ8ZG243UchW1WOMtVGUtGGEilufPiOX74tVUCVomJ6bm2
+      ta6raNZKZPJ1RodDDI5PsPLiOV6YGQYMHq7e/8rHerh/yNzCLEeZGrPjUbKXJheZM2amxjC1
+      KMOxNjdXf/FY5SBY+Jp8GlT4mgRA+JoEQNx4pmmilEuj0f4guhvycU5x433wl3/O2NQkjcgk
+      g06B5PQyZwfbpOeWsSt5HCPK9MSYp/9bVgBx433ne9/mlx+usxzN8X8+3uZX739AuVrmZ3/x
+      C/7nT39KINTmLM9rkgCIGy80MMjdxTliw2mGIgHu35mnqWmMDMaZW75HOun9Y/lyGlT4mqwA
+      wtf+PxUaL0bgS8DOAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Asthma_population' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
