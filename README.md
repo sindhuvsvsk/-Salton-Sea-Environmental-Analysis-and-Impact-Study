@@ -1,4 +1,4 @@
-# -Salton-Sea-Environmental-Analysis-and-Impact-Study
+# Salton-Sea-Environmental-Analysis-and-Impact-Study
 1. aqi (pip install aqi)
 2. folium
 3. flask
