@@ -10,3 +10,7 @@
 9.time
 10. pandas
 11. numpy
+
+
+Weportal deployed on Heroku:
+https://saltonsea-air-health.herokuapp.com/health_da
